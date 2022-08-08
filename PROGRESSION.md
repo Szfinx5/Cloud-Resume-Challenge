@@ -1,24 +1,31 @@
 # Step by Step tasks of the Cloud Resume Challenge
 
 
-## 1. Certification
+## 1. Certification 
+   
 Your resume needs to have the AWS Cloud Practitioner certification on it.   
-I have passed the AWS Certified Cloud Practicioner exam on the 31. July.
+I have passed the AWS Certified Cloud Practicioner exam on the 31. July.     
+ :white_check_mark: **_Completed on 31. July 2022_**
 
-## 2. HTML
-Your resume needs to be written in HTML. Not a Word doc, not a PDF.
+## 2. HTML 
+Your resume needs to be written in HTML. Not a Word doc, not a PDF.     
+ :white_check_mark: **_Completed on 05. August 2022_**
 
 ## 3. CSS
-Your resume needs to be styled with CSS.
+Your resume needs to be styled with CSS.    
+ :white_check_mark: **_Completed on 06. August 2022_**
 
 ## 4. Static Website
-Your HTML resume should be deployed online as an Amazon S3 static website, use S3.
-
+Your HTML resume should be deployed online as an Amazon S3 static website, use S3.    
+ :white_check_mark: **_Completed on 07. August 2022_**
+ 
 ## 5. HTTPS
-The S3 website URL should use HTTPS for security. You will need to use Amazon CloudFront to help with this.
+The S3 website URL should use HTTPS for security. You will need to use Amazon CloudFront to help with this.     
+:white_check_mark: **_Completed on 07. August 2022_**
 
 ## 6. DNS
-Point a custom DNS domain name to the CloudFront distribution, so your resume can be accessed at something like my-c00l-resume-website.com. You can use Amazon Route 53 or any other DNS provider for this.
+Point a custom DNS domain name to the CloudFront distribution, so your resume can be accessed at something like my-c00l-resume-website.com. You can use Amazon Route 53 or any other DNS provider for this.     
+:white_check_mark: **_Completed on 07. August 2022_** :
 
 ## 7. Javascript
 Your resume webpage should include a visitor counter that displays how many people have accessed the site. You will need to write a bit of Javascript to make this happen.
