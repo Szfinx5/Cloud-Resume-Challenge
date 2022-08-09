@@ -31,7 +31,7 @@ Point a custom DNS domain name to the CloudFront distribution, so your resume ca
 Your resume webpage should include a visitor counter that displays how many people have accessed the site. You will need to write a bit of Javascript to make this happen.
 
 ## 8. Database
-The visitor counter will need to retrieve and update its count in a database somewhere. It is suggested to use Amazon’s DynamoDB for this.
+The visitor counter will need to retrieve and update its count in a database somewhere. It is suggested to use Amazon’s DynamoDB for this.     
  :white_check_mark: **_Completed on 08. August 2022_**
 
 ## 9. API
