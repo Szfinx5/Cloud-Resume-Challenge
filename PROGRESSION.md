@@ -32,6 +32,7 @@ Your resume webpage should include a visitor counter that displays how many peop
 
 ## 8. Database
 The visitor counter will need to retrieve and update its count in a database somewhere. It is suggested to use Amazon’s DynamoDB for this.
+ :white_check_mark: **_Completed on 08. August 2022_**
 
 ## 9. API
 Do not communicate directly with DynamoDB from your Javascript code. Instead, you will need to create an API that accepts requests from your web app and communicates with the database. It is suggested to use AWS’s API Gateway and Lambda services for this.
