@@ -28,18 +28,20 @@ Point a custom DNS domain name to the CloudFront distribution, so your resume ca
 :white_check_mark: **_Completed on 07. August 2022_** :
 
 ## 7. Javascript
-Your resume webpage should include a visitor counter that displays how many people have accessed the site. You will need to write a bit of Javascript to make this happen.
+Your resume webpage should include a visitor counter that displays how many people have accessed the site. You will need to write a bit of Javascript to make this happen.    
+:white_check_mark: **_Completed on 10. August 2022_**
 
 ## 8. Database
 The visitor counter will need to retrieve and update its count in a database somewhere. It is suggested to use Amazon’s DynamoDB for this.     
  :white_check_mark: **_Completed on 08. August 2022_**
 
 ## 9. API
-Do not communicate directly with DynamoDB from your Javascript code. Instead, you will need to create an API that accepts requests from your web app and communicates with the database. It is suggested to use AWS’s API Gateway and Lambda services for this.
+Do not communicate directly with DynamoDB from your Javascript code. Instead, you will need to create an API that accepts requests from your web app and communicates with the database. It is suggested to use AWS’s API Gateway and Lambda services for this.     
+:white_check_mark: **_Completed on 11. August 2022_**
 
 ## 10. Python
 You will need to write a bit of code in the Lambda function; you could use more Javascript, but it would be better for our purposes to explore Python – a common language used in back-end programs and scripts – and its boto3 library for AWS.     
-:white_check_mark: **_Completed on 09. August 2022_**
+:white_check_mark: **_Completed on 09. August 2022_** (the function was written in JavaScript, but planning to rewrite it in Python)
 
 ## 11. Tests
 You should also include some tests for your Python code.
@@ -48,7 +50,8 @@ You should also include some tests for your Python code.
 You should not be configuring your API resources – the DynamoDB table, the API Gateway, the Lambda function – manually, by clicking around in the AWS console. Instead, define them in an AWS Serverless Application Model (SAM) template and deploy them using the AWS SAM CLI. This is called “infrastructure as code” or IaC. It saves you time in the long run.
 
 ## 13. Source Control
-You do not want to be updating either your back-end API or your front-end website by making calls from your laptop, though. You want them to update automatically whenever you make a change to the code. (This is called continuous integration and deployment, or CI/CD.) Create a GitHub repository for your backend code.
+You do not want to be updating either your back-end API or your front-end website by making calls from your laptop, though. You want them to update automatically whenever you make a change to the code. (This is called continuous integration and deployment, or CI/CD.) Create a GitHub repository for your backend code.     
+:white_check_mark: **_Completed on 10. August 2022_**
 
 ## 14. CI/CD (Back end)
 Set up GitHub Actions such that when you push an update to your Serverless Application Model template or Python code, your Python tests get run. If the tests pass, the SAM application should get packaged and deployed to AWS.
