@@ -39,6 +39,7 @@ Do not communicate directly with DynamoDB from your Javascript code. Instead, yo
 
 ## 10. Python
 You will need to write a bit of code in the Lambda function; you could use more Javascript, but it would be better for our purposes to explore Python – a common language used in back-end programs and scripts – and its boto3 library for AWS.
+:white_check_mark: **_Completed on 09. August 2022_**
 
 ## 11. Tests
 You should also include some tests for your Python code.
