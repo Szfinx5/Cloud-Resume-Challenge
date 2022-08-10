@@ -38,7 +38,7 @@ The visitor counter will need to retrieve and update its count in a database som
 Do not communicate directly with DynamoDB from your Javascript code. Instead, you will need to create an API that accepts requests from your web app and communicates with the database. It is suggested to use AWS’s API Gateway and Lambda services for this.
 
 ## 10. Python
-You will need to write a bit of code in the Lambda function; you could use more Javascript, but it would be better for our purposes to explore Python – a common language used in back-end programs and scripts – and its boto3 library for AWS.
+You will need to write a bit of code in the Lambda function; you could use more Javascript, but it would be better for our purposes to explore Python – a common language used in back-end programs and scripts – and its boto3 library for AWS.     
 :white_check_mark: **_Completed on 09. August 2022_**
 
 ## 11. Tests
