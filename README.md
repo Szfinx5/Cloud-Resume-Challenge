@@ -1,4 +1,7 @@
-# The Cloud Resume Challenge - AWS  
+<div align="center">
+    <img src="https://i.ibb.co/VqwYV9X/cloudresulechallenge.png" alt="logo" width="400"/>
+</div>
+<h1 align="center">The Cloud Resume Challenge - AWS </h1>
 
 I have joined the August Sprint to build up my Cloud computing skills and produce a project to add to my portfolio.
 You can check out the CV on https://www.gabor-havasi.me/
