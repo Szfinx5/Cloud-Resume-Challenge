@@ -5,11 +5,12 @@
    
 Your resume needs to have the AWS Cloud Practitioner certification on it.   
 I have passed the AWS Certified Cloud Practicioner exam on the 31. July.     
- :white_check_mark: **_Completed on 31. July 2022_**
+ :white_check_mark: **_Completed on 31. July 2022_**     
+ 
 
 ## 2. HTML 
-Your resume needs to be written in HTML. Not a Word doc, not a PDF.     
- :white_check_mark: **_Completed on 05. August 2022_**
+Your resume needs to be written in HTML. Not a Word doc, not a PDF.       
+ :white_check_mark: **_Completed on 05. August 2022_**  
 
 ## 3. CSS
 Your resume needs to be styled with CSS.    
@@ -17,7 +18,8 @@ Your resume needs to be styled with CSS.
 
 ## 4. Static Website
 Your HTML resume should be deployed online as an Amazon S3 static website, use S3.    
- :white_check_mark: **_Completed on 07. August 2022_**
+ :heavy_check_mark: **_Completed on 07. August 2022_**    
+ :white_check_mark: **_Re-done by AWS SAM on 25. August 2022_** 
  
 ## 5. HTTPS
 The S3 website URL should use HTTPS for security. You will need to use Amazon CloudFront to help with this.     
