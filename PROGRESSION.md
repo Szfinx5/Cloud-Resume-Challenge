@@ -44,13 +44,14 @@ Do not communicate directly with DynamoDB from your Javascript code. Instead, yo
 ## 10. Python
 You will need to write a bit of code in the Lambda function; you could use more Javascript, but it would be better for our purposes to explore Python – a common language used in back-end programs and scripts – and its boto3 library for AWS.            
 :warning: **_Completed on 09. August 2022_** (the function was written in JavaScript, but planning to rewrite it in Python)   
-:white_check_mark: **rewritten in Python on 25. August 2022_**
+:white_check_mark: **_rewritten in Python on 25. August 2022_**
 
 ## 11. Tests
 You should also include some tests for your Python code.
 
 ## 12. Infrastructure as Code
-You should not be configuring your API resources – the DynamoDB table, the API Gateway, the Lambda function – manually, by clicking around in the AWS console. Instead, define them in an AWS Serverless Application Model (SAM) template and deploy them using the AWS SAM CLI. This is called “infrastructure as code” or IaC. It saves you time in the long run.
+You should not be configuring your API resources – the DynamoDB table, the API Gateway, the Lambda function – manually, by clicking around in the AWS console. Instead, define them in an AWS Serverless Application Model (SAM) template and deploy them using the AWS SAM CLI. This is called “infrastructure as code” or IaC. It saves you time in the long run.     
+:white_check_mark: **_Started to implement on 25. August 2022_**
 
 ## 13. Source Control
 You do not want to be updating either your back-end API or your front-end website by making calls from your laptop, though. You want them to update automatically whenever you make a change to the code. (This is called continuous integration and deployment, or CI/CD.) Create a GitHub repository for your backend code.     
