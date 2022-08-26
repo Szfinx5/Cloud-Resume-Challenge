@@ -3,7 +3,7 @@
 
 ### Linux ###
 
-./aws-sam
+./aws-sam 
 ./lambda/node_modules
 ./node_modules
 /node_modules
