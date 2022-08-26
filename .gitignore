@@ -2,9 +2,11 @@
 # Created by https://www.gitignore.io/api/osx,linux,python,windows,pycharm,visualstudiocode
 
 ### Linux ###
-*~
 
 ./aws-sam
+./lambda/node_modules
+./node_modules
+/node_modules
 
 # temporary files which can be created if a process still has a handle open of a deleted file
 .fuse_hidden*

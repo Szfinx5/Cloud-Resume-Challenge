@@ -4,15 +4,15 @@ const AWS = require("aws-sdk");
 let responseBody = "";
 let statusCode = 0;
 
-//async function getCounter(event, context, callback) {
-exports.handler = async function (event, context, callback) {
+async function getCounter() {
+  //exports.handler = async function (event, context, callback) {
   const documentClient = new AWS.DynamoDB.DocumentClient({
     region: "eu-west-1",
   });
   try {
     const getParams = {
-      Key: { id: "1" },
-      TableName: "cloud-resume-challenge",
+      Key: { ID: "1" },
+      TableName: "gabor-havasi-cv",
     };
     const getData = await documentClient.get(getParams).promise();
     let currentCount = Number(getData.Item.counter);
@@ -21,10 +21,10 @@ exports.handler = async function (event, context, callback) {
 
     const putParams = {
       Item: {
-        id: "1",
+        ID: "1",
         counter: currentCount.toString(),
       },
-      TableName: "cloud-resume-challenge",
+      TableName: "gabor-havasi-cv",
     };
     await documentClient.put(putParams).promise();
     responseBody = currentCount.toString();
@@ -45,6 +45,10 @@ exports.handler = async function (event, context, callback) {
   };
   console.log(response);
   return response;
-};
+}
 
-// getCounter();
+//getCounter();
+
+module.exports = {
+  getCounter,
+};

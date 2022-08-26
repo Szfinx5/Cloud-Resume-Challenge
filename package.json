@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.1203.0",
+    "jest": "^29.0.0",
+    "supertest": "^6.2.4"
+  },
+  "name": "cloud-resume-challenge",
+  "description": "<div align=\"center\">\r     <img src=\"https://i.ibb.co/VqwYV9X/cloudresulechallenge.png\" alt=\"logo\" width=\"400\"/>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Szfinx5/Cloud-Resume-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Szfinx5/Cloud-Resume-Challenge/issues"
+  },
+  "homepage": "https://github.com/Szfinx5/Cloud-Resume-Challenge#readme"
+}
