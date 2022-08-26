@@ -1,9 +1,15 @@
-# The Cloud Resume Challenge - AWS  
+<div align="center">
+    <img src="https://i.ibb.co/VqwYV9X/cloudresulechallenge.png" alt="logo" width="400"/>
 
-I have joined the August Sprint to build up my Cloud computing skills and produce a project to add to my portfolio.
+<h1 align="center">The Cloud Resume Challenge - AWS </h1>
+
+I have joined the August Sprint to build up my Cloud computing skills and produce a project to add to my portfolio.      
 You can check out the CV on https://www.gabor-havasi.me/
 
-## How are the sprints structured?
+And <a href="https://github.com/Szfinx5/Cloud-Resume-Challenge/blob/main/PROGRESSION.md">Click here</a> to check the step-by-step progression.
+</div>
+
+## How are the sprints structured?     
 
 Sprint take place over 4 weeks.    
 Each week, we build a mini-project that’s valuable in its own right.   
