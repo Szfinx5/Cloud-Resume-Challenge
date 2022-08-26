@@ -43,6 +43,6 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-west-1
       - run: sam build
-        working-directory: Cloud-Resume-Challenge
+        working-directory: ./
       - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
-        working-directory: Cloud-Resume-Challenge
+        working-directory: ./
