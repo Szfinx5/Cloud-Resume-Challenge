@@ -112,7 +112,7 @@ Resources:
             TableName: gabor-havasi-cv
       CodeUri: get-count/
       Handler: app.lambda_handler
-      Runtime: python3.9
+      Runtime: python3.10
       Architectures:
         - x86_64
       Events:
