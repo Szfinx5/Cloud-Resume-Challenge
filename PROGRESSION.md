@@ -18,16 +18,18 @@ Your resume needs to be styled with CSS.
 
 ## 4. Static Website
 Your HTML resume should be deployed online as an Amazon S3 static website, use S3.    
- :heavy_check_mark: **_Completed on 07. August 2022_**    
- :white_check_mark: **_Re-done by AWS SAM on 25. August 2022_** 
+ :heavy_check_mark: **_Completed on 07. August 2022_**
+ :white_check_mark: **_Re-done by AWS CLI on 25. August 2022_** 
  
 ## 5. HTTPS
 The S3 website URL should use HTTPS for security. You will need to use Amazon CloudFront to help with this.     
-:white_check_mark: **_Completed on 07. August 2022_**
+:heavy_check_mark: **_Completed on 07. August 2022_**
+:white_check_mark: **_Re-done by AWS SAM on 26. August 2022_** 
 
 ## 6. DNS
 Point a custom DNS domain name to the CloudFront distribution, so your resume can be accessed at something like my-c00l-resume-website.com. You can use Amazon Route 53 or any other DNS provider for this.     
-:white_check_mark: **_Completed on 07. August 2022_** :
+:heavy_check_mark: **_Completed on 07. August 2022_** :
+:white_check_mark: **_Re-done by AWS SAM on 26. August 2022_** 
 
 ## 7. Javascript
 Your resume webpage should include a visitor counter that displays how many people have accessed the site. You will need to write a bit of Javascript to make this happen.    
@@ -35,15 +37,17 @@ Your resume webpage should include a visitor counter that displays how many peop
 
 ## 8. Database
 The visitor counter will need to retrieve and update its count in a database somewhere. It is suggested to use Amazon’s DynamoDB for this.     
- :white_check_mark: **_Completed on 08. August 2022_**
+ ✔️_check_mark: **_Completed on 08. August 2022_**
+ :white_check_mark: **_Re-done by AWS SAM on 26. August 2022_** 
 
 ## 9. API
 Do not communicate directly with DynamoDB from your Javascript code. Instead, you will need to create an API that accepts requests from your web app and communicates with the database. It is suggested to use AWS’s API Gateway and Lambda services for this.     
-:white_check_mark: **_Completed on 11. August 2022_**
+:heavy_check_mark: **_Completed on 11. August 2022_**
+:white_check_mark: **_Re-done by AWS SAM on 26. August 2022_** 
 
 ## 10. Python
 You will need to write a bit of code in the Lambda function; you could use more Javascript, but it would be better for our purposes to explore Python – a common language used in back-end programs and scripts – and its boto3 library for AWS.            
-:warning: **_Completed on 09. August 2022_** (the function was written in JavaScript, but planning to rewrite it in Python)   
+:warning: **_Completed on 09. August 2022_ in JavaScript**
 :white_check_mark: **_rewritten in Python on 25. August 2022_**
 
 ## 11. Tests
