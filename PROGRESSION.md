@@ -52,6 +52,7 @@ You will need to write a bit of code in the Lambda function; you could use more 
 
 ## 11. Tests
 You should also include some tests for your Python code.
+:white_check_mark: **_Completed on 26. August 2022_** 
 
 ## 12. Infrastructure as Code
 You should not be configuring your API resources – the DynamoDB table, the API Gateway, the Lambda function – manually, by clicking around in the AWS console. Instead, define them in an AWS Serverless Application Model (SAM) template and deploy them using the AWS SAM CLI. This is called “infrastructure as code” or IaC. It saves you time in the long run.     
@@ -62,10 +63,12 @@ You do not want to be updating either your back-end API or your front-end websit
 :white_check_mark: **_Completed on 10. August 2022_**
 
 ## 14. CI/CD (Back end)
-Set up GitHub Actions such that when you push an update to your Serverless Application Model template or Python code, your Python tests get run. If the tests pass, the SAM application should get packaged and deployed to AWS.
+Set up GitHub Actions such that when you push an update to your Serverless Application Model template or Python code, your Python tests get run. If the tests pass, the SAM application should get packaged and deployed to AWS.        
+:white_check_mark: **_Completed on 26. August 2022_** 
 
 ## 15. CI/CD (Front end)
-Create a second GitHub repository for your website code. Create GitHub Actions such that when you push new website code, the S3 bucket automatically gets updated. (You may need to invalidate your CloudFront cache in the code as well.) Important note: DO NOT commit AWS credentials to source control! Bad hats will find them and use them against you!
+Create a second GitHub repository for your website code. Create GitHub Actions such that when you push new website code, the S3 bucket automatically gets updated. (You may need to invalidate your CloudFront cache in the code as well.) Important note: DO NOT commit AWS credentials to source control! Bad hats will find them and use them against you!       
+:white_check_mark: **_Completed on 26. August 2022_** 
 
 ## 16. Blog post
 Finally, in the text of your resume, you should link a short blog post describing some things you learned while working on this project. Dev.to or Hashnode are great places to publish if you don’t have your own blog.
