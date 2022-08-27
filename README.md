@@ -9,6 +9,9 @@ You can check out the CV on https://www.gabor-havasi.me/
 And <a href="https://github.com/Szfinx5/Cloud-Resume-Challenge/blob/main/PROGRESSION.md">Click here</a> to check the step-by-step progression.
 </div>
 
+## What is this challenge?
+The Cloud Resume Challenge is a multiple-step resume project which helps build and demonstrate skills fundamental to pursuing a career as an AWS Cloud Engineer. The project was published by <a href="https://forrestbrazeal.com/">Forrest Brazeal.</a>
+
 ## How are the sprints structured?     
 
 Sprint take place over 4 weeks.    
