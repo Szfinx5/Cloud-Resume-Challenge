@@ -154,6 +154,10 @@ button:focus,
     outline : none;
     }
 
+    .badges{
+        text-align: center;
+    }
+
 /* --------------------
  * Column Block
  * -------------------*/
