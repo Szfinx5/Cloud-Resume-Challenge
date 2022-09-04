@@ -1,4 +1,5 @@
 # Step by Step tasks of the Cloud Resume Challenge
+You can find my detailed blog about the solution by <a href="https://dev.to/ghavasi/the-cloud-resume-challenge-2i8f"> clicking here.</a>
 
 
 ## 1. Certification 
@@ -71,4 +72,5 @@ Create a second GitHub repository for your website code. Create GitHub Actions s
 :white_check_mark: **_Completed on 26. August 2022_** 
 
 ## 16. Blog post
-Finally, in the text of your resume, you should link a short blog post describing some things you learned while working on this project. Dev.to or Hashnode are great places to publish if you don’t have your own blog.
+Finally, in the text of your resume, you should link a short blog post describing some things you learned while working on this project. Dev.to or Hashnode are great places to publish if you don’t have your own blog.          
+:white_check_mark: **published on 04. September 2022_** 
