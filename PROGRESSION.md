@@ -41,7 +41,7 @@ The visitor counter will need to retrieve and update its count in a database som
  ✔️_check_mark: **_Completed on 08. August 2022_**
  :white_check_mark: **_Re-done by AWS SAM on 26. August 2022_** 
 
-## 9. API
+## 9. APIAugust
 Do not communicate directly with DynamoDB from your Javascript code. Instead, you will need to create an API that accepts requests from your web app and communicates with the database. It is suggested to use AWS’s API Gateway and Lambda services for this.     
 :heavy_check_mark: **_Completed on 11. August 2022_**
 :white_check_mark: **_Re-done by AWS SAM on 26. August 2022_** 
@@ -73,4 +73,4 @@ Create a second GitHub repository for your website code. Create GitHub Actions s
 
 ## 16. Blog post
 Finally, in the text of your resume, you should link a short blog post describing some things you learned while working on this project. Dev.to or Hashnode are great places to publish if you don’t have your own blog.          
-:white_check_mark: **published on 04. September 2022_** 
+:white_check_mark: **_Published on 04. September 2022_** 
